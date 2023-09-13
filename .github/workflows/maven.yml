@@ -70,9 +70,9 @@ jobs:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }} # Create a secret for your Docker Hub password
         run: |
           docker buildx create --use
-          docker buildx build --platform linux/amd64,linux/arm64 -t AkashPal14/kaiburr-server:latest .
+          docker buildx build --platform linux/amd64,linux/arm64 -t akashpal14/kaiburr-server:latest .
           docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-          docker push AkashPal14/kaiburr-server:latest  
+          docker push akashpal14/kaiburr-server:latest  
 
 #      - name: Build & push Docker image
 #        uses: mr-smithers-excellent/docker-build-push@v6
