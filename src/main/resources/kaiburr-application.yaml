@@ -1,0 +1,44 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: kaiburr-server
+spec:
+  selector:
+    app: kaiburr-server
+  ports:
+    - protocol: TCP
+      port: 8080
+      nodePort: 30081
+  type: NodePort
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kaiburr-server
+spec:
+  selector:
+    matchLabels:
+      app: kaiburr-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: kaiburr-server
+    spec:
+      containers:
+        - name: kaiburr-server
+          image: kaiburr-server:1.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
+          env:
+            - name: kaiburrserver
+#              valueFrom:
+#                configMapKeyRef:
+#                  name: config
+#                  key: database
+            - name: kaiburrmongodb
+#              valueFrom:
+#                configMapKeyRef:
+#                  name: config
+#                  key: host

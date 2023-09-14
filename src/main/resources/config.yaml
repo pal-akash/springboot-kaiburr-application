@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kaiburr-server-config
+data:
+  host: kaiburrmongodb
+  database: kaiburrserver
