@@ -22,12 +22,37 @@ creating and deleting “server” objects:
 Be sure that you can show how your application responds to requests using postman, curl or  
 any other HTTP client  
 
-![add](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/fb0f9b64-d3cd-4cef-9e49-b7f70c6638a4)
-![get](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1786aa96-0f62-4d5a-9d65-671c0d8fd3de)
-![getbyid](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/348f25a1-723c-4453-a06a-7ba92e90db84)
-![getbyidf](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/a21dc64c-d2cb-4037-9262-e2fff29066f3)
-![delete](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/2427a612-bb75-491b-8773-2b61e075dfdc)
-![getbyname](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1e1495b3-2e6f-49ea-bf49-6c646ae10a47)
+![add](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/fb0f9b64-d3cd-4cef-9e49-b7f70c6638a4)  
+  
+![get](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1786aa96-0f62-4d5a-9d65-671c0d8fd3de)  
+  
+![getbyid](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/348f25a1-723c-4453-a06a-7ba92e90db84)  
+  
+![getbyidf](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/a21dc64c-d2cb-4037-9262-e2fff29066f3)  
+  
+![delete](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/2427a612-bb75-491b-8773-2b61e075dfdc)  
+  
+![getbyname](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1e1495b3-2e6f-49ea-bf49-6c646ae10a47)  
+
+#Task 2:
+
+Kubernetes.
+
+  Use the application that you created in task #1 or task #2. Create dockerfiles and build docker  
+  images. Create kubernetes yaml manifests for the application (at least a deployment and a  
+  service). It’s ok to expose the application with a LoadBalancer or NodePort service or with an  
+  ingress. Spin up a single-node local Kubernetes cluster (Docker Desktop, Kind or Minikube) or  
+  use a managed cluster like EKS, AKS, GKE etc. Deploy MongoDB to the cluster (it’s ok to use a  
+  community helm chart for this, any other approach is fine as well). Then deploy the application  
+  to the cluster by applying your manifests. The following requirements should be fulfilled:  
+    ● you can bring your application up by applying your yaml manifests  
+    ● mongodb is running in a separate pod  
+    ● the application should take mongo connection details from the environment variables  
+    ● the app endpoints should be available from your host machine  
+    ● a persistent volume should be used to store the MongoDB data. I.e., when you delete  
+      the MongoDB pod the records in the db should not disappear.  
+
+
 
 
 
