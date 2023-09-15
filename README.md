@@ -53,8 +53,13 @@ Kubernetes.
       the MongoDB pod the records in the db should not disappear.  
 
 
-
-
+![Screenshot 2023-09-13 211631](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/e3537d85-2063-4caf-9811-9178bd2b93d2)  
+  
+![Screenshot 2023-09-13 211711](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/28674e59-a3c3-45d9-895f-0ebea4266c11)
+  
+![Screenshot 2023-09-13 212410](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/f69f5fd2-c9a3-4e98-9185-0eff3c1c5b90)
+  
+![Screenshot 2023-09-13 211729](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/7f5c137d-090e-4e97-b773-84fb0cba9e51)
 
 
 
