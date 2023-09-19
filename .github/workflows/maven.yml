@@ -52,5 +52,5 @@ jobs:
           SPRING_PROFILES_ACTIVE: production
           MONGODB_URI: ${{ secrets.MONGODB_URI }} # Store your MongoDB connection string as a secret in your GitHub repository
         run: |
-          mvn spring-boot:run -Dspring-boot.run.profiles=${SPRING_PROFILES_ACTIVE} -Dspring.data.mongodb.uri=${MONGODB_URI}
+          mvn spring-boot:run -Dspring-boot.run.profiles=${SPRING_PROFILES_ACTIVE} -Dspring.data.mongodb.uri=${{ secrets.MONGODB_URI }}
 
