@@ -50,7 +50,7 @@ jobs:
       - name: Deploy to Production
         env:
           SPRING_PROFILES_ACTIVE: production
-          MONGODB_URI: ${{ secrets.MONGODB_URI }} # Store your MongoDB connection string as a secret in your GitHub repository
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
         run: |
           mvn spring-boot:run -Dspring-boot.run.profiles=${SPRING_PROFILES_ACTIVE} -Dspring.data.mongodb.uri=${{ secrets.MONGODB_URI }}
 
