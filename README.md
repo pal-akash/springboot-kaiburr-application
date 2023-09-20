@@ -1,7 +1,7 @@
 ## This application was made as an assignment
 
 
-#Task 1:
+### Task 1:
 
 Implement an application in java which provides a REST API with endpoints for searching,
 creating and deleting “server” objects:  
@@ -34,7 +34,7 @@ any other HTTP client
   
 ![getbyname](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1e1495b3-2e6f-49ea-bf49-6c646ae10a47)  
 
-#Task 2:
+### Task 2:
 
 Kubernetes.
 
