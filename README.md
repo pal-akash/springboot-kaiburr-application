@@ -59,7 +59,26 @@ Kubernetes.
   
 ![Screenshot 2023-09-13 212410](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/f69f5fd2-c9a3-4e98-9185-0eff3c1c5b90)
   
-![Screenshot 2023-09-13 211729](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/7f5c137d-090e-4e97-b773-84fb0cba9e51)
+![Screenshot 2023-09-13 211729](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/7f5c137d-090e-4e97-b773-84fb0cba9e51)  
 
-
-
+Now we pull mongo instance using --  
+docker pull mongo  
+this creates a image of the latest version of MongoDb into the docker container  
+  
+![Screenshot 2023-09-13 211906](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/9e102d46-3e52-4357-bb64-0509d1472627)  
+  
+![Screenshot 2023-09-13 211750](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/0ae375b5-16fc-4074-8d54-363e6cbe13d8)  
+  
+![Screenshot 2023-09-13 211948](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1f742222-9807-4855-888a-799888b7b4e0)  
+  
+![Screenshot 2023-09-13 211822](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/0d8228c7-2066-4910-b6b3-4bdffd5ff51e)  
+  
+![Screenshot 2023-09-13 211832](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/8ca9466d-ecb9-4789-a8b2-425ccbb4722e)  
+  
+![Screenshot 2023-09-13 211935](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/ba0e5fb0-b732-4558-82c8-dfd9b1b4aee5)  
+  
+![Screenshot 2023-09-13 212034](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/b50ddb75-1cab-4d9f-adbc-7769b37ca59a)  
+  
+![Screenshot 2023-09-13 212050](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/823b1c45-faf2-4e5e-bdd4-b1a7eef6726c)  
+  
+![Screenshot 2023-09-13 212139](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/98e666dc-97b1-4497-bb25-13d153810d47)
