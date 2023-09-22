@@ -34,9 +34,7 @@ any other HTTP client
   
 ![getbyname](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/1e1495b3-2e6f-49ea-bf49-6c646ae10a47)  
 
-### Task 2:
-
-Kubernetes.
+### Task 2: Kubernetes.
 
   Use the application that you created in task #1 or task #2. Create dockerfiles and build docker  
   images. Create kubernetes yaml manifests for the application (at least a deployment and a  
@@ -81,4 +79,12 @@ this creates a image of the latest version of MongoDb into the docker container
   
 ![Screenshot 2023-09-13 212050](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/823b1c45-faf2-4e5e-bdd4-b1a7eef6726c)  
   
-![Screenshot 2023-09-13 212139](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/98e666dc-97b1-4497-bb25-13d153810d47)
+![Screenshot 2023-09-13 212139](https://github.com/pal-akash/springboot-kaiburr-application/assets/108969268/98e666dc-97b1-4497-bb25-13d153810d47)  
+
+### Task 5. CI-CD Pipeline
+Create a CI-CD pipeline for a sample application (built in task 1 and/or 4 above) using any  
+CI-CD tool of your choice like Jenkins, Azure DevOps, Gitlab, Github Actions, AWS  
+CodePipeline or any other tool of your choice. Include a code build and a docker build step in  
+your pipeline.  
+
+Used tool GitHub Actions. The workflow can be seen in .github/workflows/maven.yml
